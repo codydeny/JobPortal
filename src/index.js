@@ -1,15 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import ScrollToTop from './Components/Utils/ScrollToTop';
+import App from './Components/App/App';
 import store from './app/store';
 import { Provider } from 'react-redux';
 import * as serviceWorker from './serviceWorker';
+import { Router } from "react-router-dom";
+import { createBrowserHistory } from 'history';
+import './index.css';
+
+const history = createBrowserHistory();
+
+history.listen((location, action) => {
+    window.scrollTo(0, 0)
+})
 
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
+     <Router history={history}>
+     <ScrollToTop />
       <App />
+      </Router>
     </Provider>
   </React.StrictMode>,
   document.getElementById('root')
