@@ -1,9 +1,10 @@
-# Job Portal
- Job Portal is a Frontend Design of a job portal. All the pages are static. It contains following pages :
-* https://kind-euclid-d558e0.netlify.app/register Employee & Employer Register Page.
-* https://kind-euclid-d558e0.netlify.app/login (1 View) A login page for both Employee and Employer.
-* https://kind-euclid-d558e0.netlify.app/RecievedJobs (1 View) Recieved Jobs Page for Employee
-* https://kind-euclid-d558e0.netlify.app/AcceptedJobs (1 view) Accepted Jobs Page for Employee
-* https://kind-euclid-d558e0.netlify.app/RejectedJobs (1 View) Rejected Jobs Page for Employee
-* https://kind-euclid-d558e0.netlify.app/Employer (1 view) Employer's Open Jobs
-* https://kind-euclid-d558e0.netlify.app/Employer/PostJobs  (1 View) Employer's Post a Job Page 
+## Job Portal
+ Job Portal is a frontend design of a (potential) job portal. It contains views like posting Jobs, viewing them, accepting & rejecting jobs, etc. All the pages are static. Currently it contains the following pages :
+ 
+* [Employee & Employer Register Page](https://kind-euclid-d558e0.netlify.app/register)
+* [ A login page for both Employee and Employer](https://kind-euclid-d558e0.netlify.app/login)
+* [Recieved Jobs Page for Employee](https://kind-euclid-d558e0.netlify.app/RecievedJobs)
+* [Accepted Jobs Page for Employee](https://kind-euclid-d558e0.netlify.app/AcceptedJobs)
+* [Rejected Jobs Page for Employee](https://kind-euclid-d558e0.netlify.app/RejectedJobs)
+* [ Employer's Open Jobs](https://kind-euclid-d558e0.netlify.app/Employer)
+* [Employer's Post a Job Page ](https://kind-euclid-d558e0.netlify.app/Employer/PostJobs)
